@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(235, 216, 191);
+    color: rgb(20, 25, 30);
+}
+.image{
+    border-radius: 50%;
+    width: 50px;
+}
+.food .img{
+
+    width: 96%;
+    height: 400px;
+    margin: 0% 2%;
+}
+.about{
+    width: 96%;
+    height: 150px;
+    margin: 0% 2%;
+}
