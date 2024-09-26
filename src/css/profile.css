@@ -1,0 +1,43 @@
+
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+}
+.navbar {
+    background-color: rgb(79, 79, 79); /* Set background color */
+}
+.navbar-brand img {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -80px;
+}
+.profile-header {
+    text-align: center;
+    margin-top: 100px; /* Space from navbar */
+    margin-bottom: 20px;
+}
+.profile-img {
+    width: 150px; /* Profile image size */
+    height: 150px; /* Profile image size */
+    border-radius: 50%; /* Circular image */
+    border: 4px solid #3498db; /* Border color */
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 30px; /* Space between cards */
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.bio {
+    color: #34495e; /* Bio text color */
+    font-size: 1rem; /* Bio text size */
+}
+.btn-custom {
+    background-color: #3498db; /* Custom button color */
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}

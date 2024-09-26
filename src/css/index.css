@@ -1,0 +1,53 @@
+
+        /* __________ L O G O   S L I D E R __________ */
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(calc(-250px * 7))
+            }
+        }
+
+        .partners-logo-slider {
+            height: 280px;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+            width: auto;
+            background-color: #F1F1F1;
+            padding: 16px 0px;
+
+            .slide-track {
+                animation: scroll 40s linear infinite;
+                display: flex;
+                width: calc(250px * 14);
+            }
+
+            .sliderTitle {
+                font-size: 30px;
+                font-weight: 400;
+                line-height: normal;
+                text-align: center;
+            }
+
+            .slide {
+                height: 300px;
+                width: 250px;
+                filter: grayscale(70%);
+            }
+
+            .slide:hover {
+                filter: grayscale(0%);
+            }
+        }
+        
+    .feedback-img {
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+        height: 250px; /* Set the desired uniform height for all images */
+        width: 100%; /* Makes the image responsive */
+    }
+    .stars {
+        color: #FFD700; /* Color for stars (gold) */
+    }
