@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensures full height */
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    width: 100%; /* Ensure card takes full width if required */
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+.card-img {
+    flex: 1;
+    background-image: url('../../assets/image/logo.png'); 
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the form content vertically */
+    padding: 20px;
+}

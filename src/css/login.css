@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+}
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+.card-img {
+    flex: 1;
+    background-image: url('../../assets/image/logo.png'); 
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ccc; /* Adds a light gray border */
+    border-radius: 10px; /* Optional: Add rounded corners to the border */
+}
+
+.card-body {
+    flex: 1;
+}
